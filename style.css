@@ -96,7 +96,7 @@ section {
 }
 
 .intro-card a {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -130,4 +130,233 @@ section {
 
 .icon li {
   list-style: none;
+}
+
+.work-card img {
+  width: 295px;
+  height: 220px;
+  background: url(blog_drbl_4x.png);
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.work-card1 h2 {
+  width: 295px;
+  height: 36px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.work-card1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.canopy {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.canopy ul {
+  width: 88px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  height: 16px;
+  font-size: 13px;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+}
+
+.daily {
+  width: 295px;
+  height: 76px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.canopy span {
+  width: 55px;
+  height: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.canopy li {
+  width: 88px;
+  height: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.lang {
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+.lang-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #01f;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.lang-item1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  color: #01f;
+  width: 95px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+button {
+  width: max-content;
+  border: 1px solid #01f;
+  border-radius: 8px;
+  color: #01f;
+  background-color: #fff;
+  padding: 12px;
+  font-size-adjust: 17px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.project-button {
+  width: max-content;
+  border: 1px solid #01f;
+  border-radius: 8px;
+  padding: 12px;
+  font-size-adjust: 17px;
+}
+
+.lang-icon {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 11px;
+  margin: 30px 10px;
+}
+
+.languages_details {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  text-align: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  padding: 0.5em;
+  background-color: #f7f7f9;
+  margin-top: 0.5em;
+}
+
+.languages_details p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.icon_one {
+  width: 90%;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 11px;
+  margin: 30px 10px;
+}
+
+h4 {
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.lang-icon h4 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.icon_one h4 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
 }
