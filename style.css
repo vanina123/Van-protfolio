@@ -409,7 +409,7 @@ hr {
   border-width: 1px;
 }
 
-.contact1{
+.contact1 {
   background-image: url("images/cont.png");
   background-repeat: no-repeat;
   display: flex;
@@ -417,26 +417,25 @@ hr {
   background-position: top right;
   background-size: 100%;
   justify-content: center;
-  background-color: #6070FF;
+  background-color: #6070ff;
   align-content: center;
   margin-top: 128px;
   padding: 103px 24px;
   border-radius: 80px 0 0 0;
-
 }
-.first_me{
 
-  font-family: 'Poppins';
+.first_me {
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .first {
-color: #ebebff;
+  color: #ebebff;
   margin-top: 12px;
   font-style: normal;
   font-family: "poppins", sans-serif;
@@ -447,12 +446,11 @@ color: #ebebff;
 }
 
 .first p {
-display: block;
-margin-block-start: 1em;
-margin-block-end: 1em;
-margin-inline-start: 0;
-margin-inline-end: 0;
-
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 .contact h2 {
@@ -460,19 +458,19 @@ margin-inline-end: 0;
   font-size: 1.5em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   font-weight: bold;
 }
 
-form{
+form {
   display: block;
   margin: 0%;
   margin-top: 50px;
 }
 
-.name{
-  font-family: "Poppins" sans-serif;
+.name {
+  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   border: 1px solid #cfd8dc;
@@ -485,35 +483,36 @@ form{
   line-height: 20px;
 }
 
-.me{
+.me {
   margin-bottom: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.message{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-border: 1px solid #cfd8dc;
+
+.message {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-top: 12px;
-font-size: 15px;
-line-height: 24px;
-color: #B3BAC5;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
 }
 
-textarea{
-  background: #FFFFFF;
-/* Base/100 */
+textarea {
+  background: #fff;
 
-border: 1px solid #CFD8DC;
-border-radius: 8px;
+  /* Base/100 */
+
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
 }
 
-.shape{
+.shape {
   display: grid;
   place-items: center;
   margin-top: 20px;
 }
-
