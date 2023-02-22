@@ -184,9 +184,9 @@ Example:
  
 👤 **Author2**
 
-<!-- - GitHub: [@githubhandle](https://github.com/brightbrain20)
+ - GitHub: [@githubhandle](https://github.com/brightbrain20)
 - Twitter: [@twitterhandle](https://twitter.com/BrightEzeamaka)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bright-ezeamaka-752837237/) -->
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bright-ezeamaka-752837237/) 
 
 
 
@@ -206,7 +206,7 @@ Example:
 
 <!-- CONTRIBUTING -->
 
-<!-- ## 🤝 Contributing <a name="contributing">brightbrain20</a> -->
+## 🤝 Contributing <a name="contributing">brightbrain20</a> 
 
 Contributions, issues, and feature requests are welcome!
 
