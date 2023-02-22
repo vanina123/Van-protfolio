@@ -417,6 +417,8 @@ hr {
   background-position: top right;
   background-size: 100%;
   justify-content: center;
+  height: 950px;
+  width: 375px;
   background-color: #6070ff;
   align-content: center;
   margin-top: 128px;
