@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   max-width: 100%;
   min-height: 100vh;
   background-color: #fff;
@@ -15,29 +15,32 @@ body{
   line-height: 24px;
   color: #344563;
 }
-.head{
-  background-color: #fff;
 
+.head {
+  background-color: #fff;
 }
+
 .ambuger {
   display: flex;
   flex-direction: column;
 }
 
-.desktop-menu{
+.desktop-menu {
   display: none;
 }
 
-.desk{
-  display: none;
-}
-.desktop{
+.desk {
   display: none;
 }
 
-.mobile{
+.desktop {
+  display: none;
+}
+
+.mobile {
   display: block;
 }
+
 .show {
   display: block;
   width: 33px;
@@ -67,6 +70,7 @@ body{
   color: #6070ff;
   text-decoration: none;
 }
+
 section {
   background-repeat: no-repeat;
   padding: 5rem 1.25rem 15rem;
@@ -74,7 +78,7 @@ section {
   background-position-x: 100%;
 }
 
-.image{
+.image {
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 80px;
@@ -89,7 +93,7 @@ section {
   width: auto 100%;
 }
 
-.introduction{
+.introduction {
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -97,7 +101,7 @@ section {
   padding: 0.6em;
 }
 
-.introduction p{
+.introduction p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -105,7 +109,8 @@ section {
   line-height: 24px;
   color: #344563;
 }
-.introduction h1{
+
+.introduction h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -117,13 +122,14 @@ section {
   width: 65%;
 }
 
-.intro{
+.intro {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding-left: 2%;
 }
-.intro a{
+
+.intro a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -146,30 +152,31 @@ section {
   flex: none;
 }
 
-.list{
+.list {
   display: flex;
   gap: 23px;
 }
 
-.list img{
+.list img {
   height: 20px;
   width: 20px;
 }
 
-.list li{
+.list li {
   list-style: none;
 }
 
-.cards{
+.cards {
   background: #e5e5e5;
   display: grid;
   gap: 24px;
 }
-.nana{
+
+.nana {
   color: #6070ff;
 }
 
-.card{
+.card {
   flex-direction: column;
   gap: 24px;
   border: 1px solid #dfe1e6;
@@ -184,7 +191,7 @@ section {
   margin-top: 85px;
 }
 
-.card-c{
+.card-c {
   display: flex;
   padding: 8px 0;
   width: 100%;
@@ -192,7 +199,7 @@ section {
   align-items: center;
 }
 
-.card-c .canopy{
+.card-c .canopy {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -201,7 +208,8 @@ section {
   color: #344563;
   font-size: 13px;
 }
-.mobile1{
+
+.mobile1 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -209,7 +217,8 @@ section {
   line-height: 44px;
   color: #172b4d;
 }
-.card-c p{
+
+.card-c p {
   font-size: 13px;
   color: #7a869a;
   padding: 8px 0;
@@ -219,14 +228,14 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.dot{
+.dot {
   width: 10px;
   height: 10px;
   background-color: #c1c7d0;
   border-radius: 500%;
 }
 
-.daily p{
+.daily p {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -235,18 +244,18 @@ section {
   color: #344563;
 }
 
-ul{
+ul {
   list-style: none;
-
 }
-.card-item{
+
+.card-item {
   display: flex;
   gap: 12px;
   margin: 12px 0;
   flex-direction: row;
 }
 
-.card-item li{
+.card-item li {
   padding: 4px 12px;
   border-radius: 8px;
   background-color: #ebebff;
@@ -257,7 +266,7 @@ ul{
   letter-spacing: 0.03em;
 }
 
-button{
+button {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -281,15 +290,15 @@ button{
   flex-direction: column;
 }
 
-.lari{
+.lari {
   border-top-right-radius: 80px;
 }
 
-span{
+span {
   display: inline-block;
 }
 
-.larisa{
+.larisa {
   margin: 12px 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -298,7 +307,8 @@ span{
   line-height: 24px;
   color: #344563;
 }
-.about-myself{
+
+.about-myself {
   font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
@@ -309,12 +319,13 @@ span{
   color: #172b4d;
   background: #fff;
 }
-.details{
+
+.details {
   margin-top: 24px;
   gap: 12px;
 }
 
-.lang1{
+.lang1 {
   justify-content: space-between;
   font-size: 20px;
   align-items: center;
@@ -324,10 +335,9 @@ span{
   padding: 24px 42px 36px 0;
 }
 
-ul .list-icon .skill-icon{
+ul .list-icon .skill-icon {
   margin-top: 12px;
   gap: 24px;
-
 }
 
 .job-d {
@@ -336,9 +346,9 @@ ul .list-icon .skill-icon{
   font-weight: 500;
   display: flex;
   align-items: center;
-
 }
-.parag{
+
+.parag {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -347,23 +357,23 @@ ul .list-icon .skill-icon{
   color: #000;
 }
 
-.lang{
+.lang {
   align-items: center;
   padding: 24px;
   gap: 12px;
   background: #f7f7f9;
   border-radius: 8px;
 }
-.languages{
+
+.languages {
   gap: 12px;
-
 }
-.long-line{
+
+.long-line {
   color: #dfe1e6;
-
 }
 
-.contact{
+.contact {
   display: flex;
   flex-direction: column;
   background-image: url(./images/backgr.png);
@@ -375,7 +385,7 @@ ul .list-icon .skill-icon{
   padding-bottom: 2%;
 }
 
-.contact-me h2{
+.contact-me h2 {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -385,10 +395,9 @@ ul .list-icon .skill-icon{
   font-size: 40px;
   line-height: 52px;
   color: #fff;
-
 }
 
-.contact-me p{
+.contact-me p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -400,13 +409,13 @@ ul .list-icon .skill-icon{
   padding: 10;
 }
 
-.contact-me1{
+.contact-me1 {
   display: flex;
   flex-direction: column;
   padding: 20px;
 }
 
-.write{
+.write {
   width: 100%;
   height: 50px;
   background: #fff;
@@ -421,7 +430,7 @@ ul .list-icon .skill-icon{
   padding: 15px 38px 15px 16px;
 }
 
-.input{
+.input {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -438,7 +447,7 @@ ul .list-icon .skill-icon{
   padding: 15px 38px 15px 16px;
 }
 
-.button1{
+.button1 {
   width: 140px;
   height: 48px;
   font-weight: 500;
@@ -454,34 +463,45 @@ button:active {
   background: #2230d2;
 }
 
+@media screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
 
-@media screen and (min-width: 768px)  {
-  .mobile{
+  .nav-link {
     display: none;
+  }
 
-  }
-  .nav-link{
-    display: none;
-  
-  }
-  .mobile1{
+  .mobile1 {
     display: none;
   }
-  .desktop-menu{
+
+  .desktop-menu {
     display: inline;
-
   }
-  .desktop-menu li a{
+
+  .intro a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    text-decoration: none;
+  }
+
+  .desktop-menu li a {
     padding-right: 15px;
     height: 0%;
     color: #344563;
     text-decoration: none;
   }
-  
-  .desk{
+
+  .desk {
     display: block;
   }
-  .desktop{
+
+  .desktop {
     display: block;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -491,7 +511,7 @@ button:active {
     color: #172b4d;
   }
 
-  .image{
+  .image {
     display: flex;
     flex-direction: column;
     background-image: url("images/bg.png");
@@ -504,7 +524,6 @@ button:active {
     padding: 100px 100px;
     margin-left: 40px;
     margin-right: 20px;
-
   }
 
   .main-container {
@@ -522,59 +541,61 @@ button:active {
   .main-container p {
     width: 90%;
   }
-  .nav-head{
+
+  .nav-head {
     padding: 10px 40px;
   }
-  .main{
+
+  .main {
     border-bottom-left-radius: 100px;
   }
 
-  .cards{
+  .cards {
     padding-right: 60px;
     padding-left: 60px;
     gap: 0;
   }
 
-  .card{
+  .card {
     display: grid;
     padding: 10px;
     grid-template-columns: repeat(2, 1fr);
     margin: 25px auto;
   }
 
-  .card img{
+  .card img {
     width: 100%;
     height: 100%;
   }
 
-  .project{
+  .project {
     padding: 20px;
-
   }
-  .order-2{
+
+  .order-2 {
     order: 2;
   }
 
-  .about{
+  .about {
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .details{
+  .details {
     display: block;
-    
   }
-  .lang1{
+
+  .lang1 {
     display: flex;
   }
 
-  .languages{
+  .languages {
     flex-direction: row;
     padding: 5px 15px;
   }
 
-  .lang{
+  .lang {
     padding: 20px;
     flex-direction: column;
     width: 122px;
@@ -583,19 +604,19 @@ button:active {
     border-radius: 8px;
   }
 
-  .lari{
+  .lari {
     padding-left: 30px;
     padding-right: 50px;
   }
 
-  .lang img{
+  .lang img {
     border-radius: 8px;
     width: 40px;
     height: 40px;
     position: relative;
   }
 
-  section .lari{
+  section .lari {
     display: grid;
     grid-template-columns: 1fr;
     padding-left: 0;
@@ -603,12 +624,12 @@ button:active {
     padding-bottom: 0;
   }
 
-  .contact-me{
+  .contact-me {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .contact{
+  .contact {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -626,52 +647,31 @@ button:active {
     padding: 0 20px;
   }
 
-  .contact-me1 .form{
+  .contact-me1 .form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
+
   form {
     width: 447px;
     border-radius: 0;
     margin: auto;
   }
 
-  .intro img{
+  .intro img {
     margin-top: 15px;
-
   }
 
-  .intro a{
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-    text-decoration: none;
-  }
-
-  .button1{
+  .button1 {
     position: relative;
     left: 30%;
   }
 
-  .line{
+  .line {
     font-weight: 500;
-  color: #5e6c84;
-  transform: rotate(90deg);
+    color: #5e6c84;
+    transform: rotate(90deg);
   }
-
-
 }
-  
-
-
-
-
-
-
-
