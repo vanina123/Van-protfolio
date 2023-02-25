@@ -596,11 +596,10 @@ button:active {
     transition-property: transform;
     transition-duration: 0.3s;
     transition-timing-function: ease-in;
-
   }
-  .languages:hover{
-    transform: translateY(-10px);
 
+  .languages:hover {
+    transform: translateY(-10px);
   }
 
   .lang {
@@ -675,7 +674,6 @@ button:active {
   .button1 {
     position: relative;
     left: 30%;
-
   }
 
   .line {
