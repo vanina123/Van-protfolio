@@ -593,6 +593,14 @@ button:active {
   .languages {
     flex-direction: row;
     padding: 5px 15px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+
+  }
+  .languages:hover{
+    transform: translateY(-10px);
+
   }
 
   .lang {
@@ -667,6 +675,7 @@ button:active {
   .button1 {
     position: relative;
     left: 30%;
+
   }
 
   .line {
