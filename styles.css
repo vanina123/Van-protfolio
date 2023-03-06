@@ -215,7 +215,7 @@ section {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172b4d;
+  color: #344563;
 }
 
 .card-c p {
@@ -466,6 +466,10 @@ button:active {
 @media screen and (min-width: 768px) {
   .mobile {
     display: none;
+  }
+
+  .nav-icon a{
+    color: #0000ff;
   }
 
   .nav-link {
