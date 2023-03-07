@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>microverse student project</title>
+    <title>Vanina's Portfolio</title>
+  
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -15,6 +16,21 @@
           <a href="#">My Logo </a>
         </div>
 
+          <ul class="nav-menu">
+
+            <li class="mobile-item">
+              <a href="#portfolio" class="mobile-list">Portfolio</a>
+            </li>
+            <li class="mobile-item">
+              <a href="#about" class="mobile-list">About</a>
+            </li>
+            <li class="mobile-item">
+              <a href="#contact" class="mobile-list">Contact</a>
+            </li>
+            
+          </ul>
+        
+
         <div class="desktop-menu">
           <ul class="flex">
             <li><a href="#">Portfolio</a></li>
@@ -22,14 +38,12 @@
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
-
-        <nav class="nav-link">
-          <div class="ambuger">
-            <span class="show"></span>
-            <span class="show"></span>
-            <span class="show"></span>
+       
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
           </div>
-        </nav>
       </div>
     </header>
 
@@ -58,19 +72,19 @@
                   <a href="#">
                     <img
                       src="images/8cd679f2-0853-4869-b7c4-1c93ecf3930d.png"
-                      alt="Linkedin"
+                      alt="Linkedin image"
                     />
                   </a>
                 </li>
                 <li>
-                  <a href="#"> <img src="images/medium.svg" alt="medium" /> </a>
+                  <a href="#"> <img src="images/medium.svg" alt="medium image" /> </a>
                 </li>
                 <li>
-                  <a href="#"> <img src="images/github.svg" alt="github" /> </a>
+                  <a href="#"> <img src="images/github.svg" alt="github image" /> </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img src="images/angellist.svg" alt="angellist" />
+                    <img src="images/angellist.svg" alt="angellist image" />
                   </a>
                 </li>
               </ul>
@@ -82,10 +96,10 @@
 
     <!-----tonic cards-->
 
-    <section class="cards">
+    <section class="cards" id="portfolio">
       <div class="card flex column">
-        <img class="mobile" src="images/works-img/tonic1.png" alt="tonic" />
-        <img class="desk" src="images/card1.svg" alt="tonic" />
+        <img class="mobile" src="images/works-img/tonic1.png" alt="tonic image" />
+        <img class="desk" src="images/card1.svg" alt="tonic image" />
         <div class="project flex column">
           <h2 class="mobile1">Tonic</h2>
           <h2 class="desktop">Tonic</h2>
@@ -219,7 +233,7 @@
 
     <!----------About Section------------->
 
-    <section class="lari">
+    <section class="lari" id="about">
       <div class="about flex column">
         <div class="me flex column">
           <h2 class="about-myself">About <br />Myself</h2>
@@ -312,7 +326,7 @@
     </section>
 
     <!-----------------------Contact me section------------------------------>
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="contact1">
         <div class="contact-me">
           <h2>Contact me</h2>
@@ -366,5 +380,6 @@
         </div>
       </div>
     </section>
+    <script src="mobile.js"></script>
   </body>
 </html>
