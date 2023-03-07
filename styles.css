@@ -20,20 +20,18 @@ body {
   background-color: #fff;
 }
 
-a:link{
+a:link {
   text-decoration: none;
-
 }
 
 ul,
-li{
+li {
   list-style: none;
 }
 
 .desktop-menu {
   display: none;
 }
-
 
 .bar {
   display: block;
@@ -77,57 +75,26 @@ li{
   transition: 0.3s;
 }
 
-.nav-menu.active{
+.nav-menu.active {
   left: 0;
 }
 
-
-
-
-
-/* .mobile-menu li{
-  list-style: none;
-
+.mobile-item {
+  margin-top: 80px;
+  margin-bottom: -50px;
 }
 
-.mobile-list a:link{
-  color: #fff;
-  text-decoration: none;
-}
-
-.mobile-menu{
-  
-} */
-
-/* .hambuger {
-  border: 2px solid;
+.mobile-item a {
+  padding-left: 25px;
   display: flex;
   flex-direction: column;
-} */
-
-
-
-/* .desk {
-  display: none;
-} */
-
-/* .desktop {
-  display: none;
-} */
-
-/* .mobile {
-  display: block;
-} */
-
-/* .show {
-  display: block;
-  width: 33px;
-  height: 3px;
-  background-color: #162ae3;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-} */
+  align-items: flex-start;
+  color: #fff;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+  opacity: 1;
+}
 
 .nav-head {
   width: 100%;
@@ -542,23 +509,24 @@ button:active {
 }
 
 @media screen and (min-width: 768px) {
-  .nav-menu{
+  .nav-menu {
     display: none;
   }
 
-  .hamburger{
+  .hamburger {
     display: none;
   }
 
   .mobile {
     display: none;
   }
-  .mobile-menu{
+
+  .mobile-menu {
     display: none;
   }
 
-  .nav-icon a{
-    color: #0000ff;
+  .nav-icon a {
+    color: #00f;
   }
 
   .nav-link {
