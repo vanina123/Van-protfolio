@@ -456,6 +456,7 @@ button {
 .button button:active {
   background-color: #2230d2;
 }
+
 .line {
   align-self: center;
   margin-top: 20px;
