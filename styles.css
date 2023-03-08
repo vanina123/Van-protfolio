@@ -33,10 +33,11 @@ li {
   display: none;
 }
 
-.desk{
+.desk {
   display: none;
 }
-.desktop{
+
+.desktop {
   display: none;
 }
 
@@ -421,6 +422,22 @@ h2 {
   display: none;
 }
 
+button {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 24px;
+  padding: 12px;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: transparent;
+  width: fit-content;
+  transition: all 0.3s ease-in-out;
+}
+
 .button button {
   color: #396df2;
   height: 60px;
@@ -495,11 +512,6 @@ h2 {
 }
 
 /* end js */
-
-
-
-
-
 
 section {
   background-repeat: no-repeat;
@@ -696,22 +708,6 @@ ul {
   letter-spacing: 0.03em;
 }
 
-button {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  margin-top: 24px;
-  padding: 12px;
-  color: #396df2;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  background-color: transparent;
-  width: fit-content;
-  transition: all 0.3s ease-in-out;
-}
-
 .flex {
   display: flex;
 }
@@ -877,22 +873,6 @@ ul .list-icon .skill-icon {
   padding: 15px 38px 15px 16px;
 }
 
-.button1 {
-  width: 140px;
-  height: 48px;
-  font-weight: 500;
-  line-height: 24px;
-  border-radius: 8px;
-  background: #fff;
-  margin-bottom: 30px;
-}
-
-button:active {
-  border: none;
-  color: #fff;
-  background: #2230d2;
-}
-
 @media screen and (min-width: 768px) {
   .nav-menu {
     display: none;
@@ -942,8 +922,6 @@ button:active {
     color: #344563;
     text-decoration: none;
   }
-
-  
 
   .desktop {
     display: block;
@@ -1166,9 +1144,9 @@ button:active {
   }
 
 
-  
 
-/* js */
+
+  /* js */
 
   /* .cards {
     padding-right: 60px;
@@ -1195,8 +1173,6 @@ button:active {
   .order-2 {
     order: 2;
   } */
-
-
 
   .about {
     padding: 10px;
@@ -1296,11 +1272,5 @@ button:active {
   .button1 {
     position: relative;
     left: 30%;
-  }
-
-  .line {
-    font-weight: 500;
-    color: #5e6c84;
-    transform: rotate(90deg);
   }
 }
