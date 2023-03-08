@@ -972,10 +972,7 @@ ul .list-icon .skill-icon {
     border-bottom-left-radius: 100px;
   }
 
-
-
   /* js start */
-
   .work-content-modal {
     border: 1px solid #cbcdd1;
     display: flex;
@@ -1132,47 +1129,6 @@ ul .list-icon .skill-icon {
     margin-top: 20px;
     margin-left: 20px;
   }
-
-  .tonic0,
-  .tonic {
-    /* font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42; */
-  }
-
-
-
-
-  /* js */
-
-  /* .cards {
-    padding-right: 60px;
-    padding-left: 60px;
-    gap: 0;
-  }
-
-  .card {
-    display: grid;
-    padding: 10px;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 25px auto;
-  }
-
-  .card img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .project {
-    padding: 20px;
-  }
-
-  .order-2 {
-    order: 2;
-  } */
 
   .about {
     padding: 10px;
