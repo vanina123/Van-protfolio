@@ -143,3 +143,8 @@ cards.forEach((cardContent) => {
     modal.style.display = 'none';
   });
 });
+
+// form validation
+const form = document.querySelector('form');
+const email = document.getElementById('femail');
+const small = document.querySelector('small');
