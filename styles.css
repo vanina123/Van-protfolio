@@ -879,6 +879,20 @@ ul .list-icon .skill-icon {
   padding: 15px 38px 15px 16px;
 }
 
+.button1 {
+  width: 140px;
+  height: 48px;
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+small {
+  color: #f00;
+}
+
 @media screen and (min-width: 768px) {
   .nav-menu {
     display: none;
