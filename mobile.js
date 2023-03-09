@@ -157,3 +157,26 @@ form.addEventListener('submit', (e) => {
     small.innerHTML = '';
   }
 });
+
+// local storage
+window.onload = () => {
+  // Check if localstorage is supported.
+  if (localStorage) {
+    // Add an event listener for form submissions
+    document.getElementById('form-st').addEventListener('submit', () => {
+      // Get the value of target fields.
+      const name = document.getElementById('fname').value;
+      const email = document.getElementById('femail').value;
+      const text = document.getElementById('farea').value;
+
+      // store key,values in array
+      const items = {
+        name,
+        email,
+        text,
+      };
+      // Save the items to localStorage.
+      localStorage.setItem('data', JSON.stringify(items)); // make inputs to strings
+    });
+  }
+};
