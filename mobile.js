@@ -148,3 +148,12 @@ cards.forEach((cardContent) => {
 const form = document.querySelector('form');
 const email = document.getElementById('femail');
 const small = document.querySelector('small');
+
+form.addEventListener('submit', (e) => {
+  if (/[A-Z]/.test(email.value)) {
+    small.innerHTML = 'Please enter email in small letters';
+    e.preventDefault();
+  } else {
+    small.innerHTML = '';
+  }
+});
