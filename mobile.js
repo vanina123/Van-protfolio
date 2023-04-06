@@ -13,25 +13,28 @@ document.querySelectorAll('.nav-menu').forEach((n) => n.addEventListener('click'
 
 const cards = [
   {
-    image: 'images/Snapshoot-Portfolio.svg',
-    name: 'Tonic',
-    preview: '',
+    image: 'images/girl2.png',
+    name: 'Child Education',
+    preview: 'https://vanina123.github.io/My-capstone/',
+    preview1: 'https://github.com/vanina123/My-capstone',
     code: '',
     tags: ['html', 'css', 'javascript'],
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   },
   {
-    image: 'images/Snapshoot-Portfolio-2.png',
-    name: 'Multi-Post Stories',
-    preview: '',
+    image: 'images/todo.png',
+    name: 'ToDo list',
+    preview: 'https://vanina123.github.io/Todo/dist/',
+    preview1: 'https://github.com/vanina123/Todo',
     code: '',
     tags: ['html', 'Ruby on rails', 'css', 'javascript'],
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   },
   {
-    image: 'images/Snapshoot-Portfolio-3.png',
-    name: 'Tonic',
-    preview: '',
+    image: 'images/book.png',
+    name: 'Books App',
+    preview: 'https://vanina123.github.io/Book-Js/',
+    preview1: 'https://github.com/vanina123/Book-Js',
     code: '',
     tags: ['html', 'Ruby on rails', 'css', 'javascript'],
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
@@ -116,7 +119,7 @@ cards.forEach((cardContent) => {
 
     <div class="modal-button">
       <a href="${cardContent.preview}" ><button id="modalBtn-0" type="button">See live <img src="images/modal-button-icon-1.svg" alt="modal-icon"></button></a>
-      <a href="${cardContent.preview}" ><button id="modalBtn-1" type="button">See Source <img src="images/modal-button-icon-github.svg" alt="modal-icon-git"></button></a>
+      <a href="${cardContent.preview1}" ><button id="modalBtn-1" type="button">See Source <img src="images/modal-button-icon-github.svg" alt="modal-icon-git"></button></a>
     </div>
     </div>
     </div>
