@@ -17,7 +17,7 @@ const cards = [
     name: 'Child Education',
     preview: 'https://vanina123.github.io/My-capstone/',
     preview1: 'https://github.com/vanina123/My-capstone',
-    code: '',
+    code: 'A conference to promote girl child education',
     tags: ['html', 'css', 'javascript'],
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   },
@@ -26,7 +26,7 @@ const cards = [
     name: 'ToDo list',
     preview: 'https://vanina123.github.io/Todo/dist/',
     preview1: 'https://github.com/vanina123/Todo',
-    code: '',
+    code: 'An app built with react and redux which you can add and delete a todo',
     tags: ['html', 'Ruby on rails', 'css', 'javascript'],
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   },
@@ -35,15 +35,16 @@ const cards = [
     name: 'Books App',
     preview: 'https://vanina123.github.io/Book-Js/',
     preview1: 'https://github.com/vanina123/Book-Js',
-    code: '',
+    code: 'This is an app that store and manages books',
     tags: ['html', 'Ruby on rails', 'css', 'javascript'],
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   },
   {
-    image: 'images/Snapshoot-Portfolio-4.png',
-    name: 'Multi-Post Stories',
-    preview: '',
-    code: '',
+    image: 'images/]yacht.png',
+    name: 'Yacht Booking App',
+    preview: 'https://yacht-booking-app.onrender.com/',
+    preview1: 'https://github.com/vanina123/book_appointment_front',
+    code: 'An online app that allows a user to reserve, add and delete yacht',
     tags: ['html', 'Ruby on rails', 'css', 'javascript'],
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
   },
@@ -70,8 +71,7 @@ cards.forEach((cardContent) => {
           <li class="bac"><img src="images/Counter.png" alt="dot"> Back End Dev</li>
           <li class="num"><img src="images/Counter.png" alt="dot"> 2015</li>
         </ul>
-        <p class="tonic-def">A daily selection of privately<br> personalized reads; no accounts or<br> sign-ups
-          required.</p>
+        <p class="tonic-def">${cardContent.code}</p>
         <ul class="stack stack-desktop">
           <li class="html">html</li>
           <li class="css">css</li>
