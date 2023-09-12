@@ -174,21 +174,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Nana Vanina**
 
 -  GitHub: [@githubhandle](https://github.com/vanina123)
 - Twitter: [@twitterhandle](https://twitter.com/DufeVanina)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/larissa-vanina-dufe-407a2b25a)
-
-
- 
-👤 **Author2**
-
- - GitHub: [@githubhandle](https://github.com/brightbrain20)
-- Twitter: [@twitterhandle](https://twitter.com/BrightEzeamaka)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bright-ezeamaka-752837237/) 
-
-
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/larissa-vanina/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
