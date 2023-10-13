@@ -19,7 +19,7 @@ const cards = [
     preview1: 'https://github.com/vanina123/My-capstone',
     code: 'A conference to promote girl child education',
     tags: ['html', 'css', 'javascript'],
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    desc: "It is a web application that provides educational resources and activities for children. It can be used by parents, teachers, and other caregivers to help children learn and grow.",
   },
   {
     image: 'images/todo.png',
@@ -28,7 +28,7 @@ const cards = [
     preview1: 'https://github.com/vanina123/Todo',
     code: 'An app built with react and redux which you can add and delete a todo',
     tags: ['html', 'Ruby on rails', 'css', 'javascript'],
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    desc: "This is a web application that allows users to create and manage to-do lists. It can be used by individuals, teams, and businesses to keep track of tasks and deadlines. The application can include a variety of features, such as:the ability to create and manage multiple to-do lists, the ability to mark tasks as complete, the ability to filter and sort tasks",
   },
   {
     image: 'images/book.png',
@@ -36,8 +36,8 @@ const cards = [
     preview: 'https://vanina123.github.io/Book-Js/',
     preview1: 'https://github.com/vanina123/Book-Js',
     code: 'This is an app that store and manages books',
-    tags: ['html', 'Ruby on rails', 'css', 'javascript'],
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    tags: ['html', 'React', 'css', 'javascript'],
+    desc: "This is a react application that allows users to manage and store books",
   },
   {
     image: 'images/]yacht.png',
@@ -45,8 +45,8 @@ const cards = [
     preview: 'https://yacht-booking-app.onrender.com/',
     preview1: 'https://github.com/vanina123/book_appointment_front',
     code: 'An online app that allows a user to reserve, add and delete yacht',
-    tags: ['html', 'Ruby on rails', 'css', 'javascript'],
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    tags: ['Ruby on rails', 'css', 'React'],
+    desc: "This is a Ruby on rails application that a user signup after wish the user views all yacht avaiable in the application as well as he can add, reserver or delete a yacht",
   },
 ];
 
@@ -69,7 +69,7 @@ cards.forEach((cardContent) => {
         <ul class="prop">
           <li class="can">CANOPY</li>
           <li class="bac"><img src="images/Counter.png" alt="dot"> Back End Dev</li>
-          <li class="num"><img src="images/Counter.png" alt="dot"> 2015</li>
+          <li class="num"><img src="images/Counter.png" alt="dot"> 2023</li>
         </ul>
         <p class="tonic-def">${cardContent.code}</p>
         <ul class="stack stack-desktop">
@@ -95,7 +95,7 @@ cards.forEach((cardContent) => {
       <ul class="prop-modal">
       <li class="can">CANOPY</li>
       <li class="bac"><img src="images/Counter.png" alt="dot"> Back End Dev</li>
-      <li class="num"><img src="images/Counter.png" alt="dot"> 2015</li>
+      <li class="num"><img src="images/Counter.png" alt="dot"> 2023</li>
     </ul>
 
     <div class="portfolio-modal-img">
@@ -118,8 +118,8 @@ cards.forEach((cardContent) => {
     <img src="images/Separator-Bottom.png" alt="separator" class="line">
 
     <div class="modal-button">
-      <a href="${cardContent.preview}" ><button id="modalBtn-0" type="button">See live <img src="images/modal-button-icon-1.svg" alt="modal-icon"></button></a>
-      <a href="${cardContent.preview1}" ><button id="modalBtn-1" type="button">See Source <img src="images/modal-button-icon-github.svg" alt="modal-icon-git"></button></a>
+      <a href="${cardContent.preview}" target="_blank"><button id="modalBtn-0" type="button">See live <img src="images/modal-button-icon-1.svg" alt="modal-icon"></button></a>
+      <a href="${cardContent.preview1}" target="_blank"><button id="modalBtn-1" type="button">See Source <img src="images/modal-button-icon-github.svg" alt="modal-icon-git"></button></a>
     </div>
     </div>
     </div>

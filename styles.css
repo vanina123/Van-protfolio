@@ -39,6 +39,7 @@ li {
 
 .desktop {
   display: none;
+  /* position: fixed; */
 }
 
 .bar {
@@ -110,6 +111,8 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
+  background-color: #fff;
+  position: fixed;
 }
 
 .nav-icon a {
@@ -122,6 +125,18 @@ li {
   line-height: 20px;
   color: #6070ff;
   text-decoration: none;
+}
+.nav-icon {
+  animation: spin 1s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* start js */
@@ -141,6 +156,17 @@ li {
   gap: 12px;
   background: #fff;
   border-radius: 16px;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.work-container:hover {
+  transform: scale(1.1);
+  border-color: #396df2;
+  cursor: pointer;
 }
 
 .modal {
@@ -716,6 +742,7 @@ ul {
 
 .flex {
   display: flex;
+  /* position: fixed; */
 }
 
 .column {

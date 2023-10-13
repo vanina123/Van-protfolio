@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <h3><b>Microverse Project Template</b></h3>
+  <h3><b>Vanina Portfolio</b></h3>
 
 </div>
 
@@ -31,10 +31,10 @@
 - [📝 License](#license)
 
 
-# 📖 [Microverse Project1] <a name="about-project"></a>
+# 📖 [Van Portfolio] <a name="about-project"></a>
 
 
-**[Microverse project1]** is a protfolio project which show my ability as a software developer
+**[Van Portfolio]** is a Portfolio project which show my ability as a full stack software developer, and also showcase skills in different languages
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,29 +55,16 @@
   </ul> -->
 </details>
 
-<!-- <details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details> -->
-
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-
-- **[HTML]**
-- **[CSS]**
-<!-- - **[key_feature_3]** -->
+- **[App design]**
+- **[App responsiness]**
+- **[Form validation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-<!-- > Add a link to your deployed project. -->
 
 - [Live Demo Link](https://vanina123.github.io/Van-protfolio/)
 
@@ -87,12 +74,11 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-<!-- > Describe how a new developer could make use of your project. -->
 
 To get a local copy up and running, follow these steps.
 step 1: Clone this repo locally using git in the command line and the following command
 
-git clone https://github.com/vanina123/microverseproject1-git
+git clone https://github.com/vanina123/Van-protfolio.git
 
 Alternatively, you can just download the complete zip file and extract the folder in your directory
 
@@ -115,86 +101,26 @@ A web browser for live Demo
 Clone this repository to your desired folder:
 
   cd my-folder
-  git clone https://github.com/vanina123/microverseproject1-git
-
-<!-- ### Install
-
-Install this project with: -->
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-<!-- ### Usage
-
-To run the project, execute the following command: -->
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-<!-- ### Run tests
-
-To run tests, run the following command: -->
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-<!-- ### Deployment
-
-You can deploy this project using: -->
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-<!-- AUTHORS -->
+  git clone https://github.com/vanina123/Van-protfolio.git
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Nana Vanina**
 
--  GitHub: [@githubhandle](https://github.com/vanina123)
+- GitHub: [@githubhandle](https://github.com/vanina123)
 - Twitter: [@twitterhandle](https://twitter.com/DufeVanina)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/larissa-vanina/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[More discreption of myself]**
 - [ ] **[Sample of my work]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing">brightbrain20</a> 
 
@@ -204,7 +130,6 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -217,8 +142,6 @@ If you like this project kindly support by sharing and feel free to add comments
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-
 I would like to thank Mircoverse organisation for giving me such an opportunity to study and also my teammates 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -226,16 +149,6 @@ I would like to thank Mircoverse organisation for giving me such an opportunity 
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-<!-- > Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
